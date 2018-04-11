@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/css/style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <title>Random Passcode</title>
+</head>
+<body>
+    <h4>Random Passcode (passcode # @ViewBag.Counter)</h4>
+    <div class="wrapper">
+        <h4>@ViewBag.RandomStr</h4>
+    </div>
+    <div id="btn">
+    <a class="light-blue darken-3 btn-large" href="/">Generate Code</a>
+    </div>
+</body>
+</html>

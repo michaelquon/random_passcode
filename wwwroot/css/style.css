@@ -1,0 +1,14 @@
+.wrapper{
+    height: 100px;
+    width: 350px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid black;
+}
+h4{
+    text-align: center;
+}
+#btn{
+    text-align: center;
+}
